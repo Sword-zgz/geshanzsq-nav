@@ -26,7 +26,7 @@
     },
     data() {
       return {
-        title: '格姗知识圈导航',
+        title: '区块链知识圈',
         logo: logoImg
       }
     }

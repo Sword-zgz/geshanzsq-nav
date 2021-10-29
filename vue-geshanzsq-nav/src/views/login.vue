@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">格姗知识圈导航系统</h3>
+      <h3 class="title">区块链知识圈系统</h3>
       <el-form-item prop="username">
         <el-input v-model="loginForm.username" type="text" auto-complete="off" placeholder="账号">
           <svg-icon slot="prefix" icon-class="user" class="el-input__icon input-icon" />
@@ -55,7 +55,8 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>Copyright © 2020-2022 nav.geshanzsq.com All Rights Reserved.</span>
+      <span>Copyright © 2020-2022 <a href="/">区块链知识圈系统</a> All Rights Reserved.</span>&nbsp;&nbsp;
+      <span><a href="https://beian.miit.gov.cn" target="_blank">京ICP备2021033021号</a></span>
     </div>
   </div>
 </template>

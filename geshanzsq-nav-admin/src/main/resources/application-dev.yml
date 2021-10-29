@@ -6,9 +6,9 @@ spring:
         druid:
             # 主库数据源
             master:
-                url: jdbc:mysql://localhost:3306/geshanzsq_nav?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                url: jdbc:mysql://39.107.226.200:3306/geshanzsq_nav?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
                 username: root
-                password: root
+                password: A@1992kb24ZGZ
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
@@ -81,7 +81,7 @@ spring:
 # 项目相关配置
 geshanzsq:
     # 文件路径 示例（ Windows配置 E:/home/geshanzsq-nav/uploadPath/profile）
-    profile: E:/home/geshanzsq-nav/uploadPath/profile
+    profile: D:/workspace/github/geshanzsq-nav/网站图片/profile
 
 # 日志配置
 logging:

@@ -1,14 +1,14 @@
 
 
-# 格姗知识圈导航网站
+# 区块链知识圈网站
 
 一个基于 Spring Boot + Vue 前后端分离的导航网站系统，在线演示地址：[https://gesdh.cn](https://gesdh.cn)
 
 欢迎加群一起学习交流技术。
 
-QQ 群交流：673465233
+QQ ：191402887
 
-微信群：添加我微信：geshanintell，备注：格姗知识圈导航
+微信群：添加我微信：crypto_blockchain，备注：区块链知识圈
 
 码云下载地址（国内推荐）：[https://gitee.com/geshanzsq/geshanzsq-nav](https://gitee.com/geshanzsq/geshanzsq-nav)
 
@@ -138,7 +138,7 @@ geshanzsq-nav.sql
 
 ## License
 
-Copyright © 2020-2022 **[格姗知识圈导航](https://gesdh.cn)** Released under the **MIT License**.
+Copyright © 2020-2022 **[区块链知识圈](https://gesdh.cn)** Released under the **MIT License**.
 
 > 注：本导航开源的目的是大家能够在本站的基础之上有所启发，做出更多新的东西，比如自定义导航。并不是让大家照搬所有代码。 如果你使用这个开源项目，请**注明**本项目开源地址。
 

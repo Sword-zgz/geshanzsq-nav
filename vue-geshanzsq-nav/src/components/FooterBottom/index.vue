@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     <el-divider></el-divider>
-    Copyright &copy; 2020-2022 <a href="/">格姗知识圈导航</a>
-    选择主题 <a href="https://nav.geshanzsq.com">格姗知识圈导航</a>
+    Copyright &copy; 2020-2022 <a href="/">区块链知识圈</a>
+    <br/><a href="https://beian.miit.gov.cn" target="_blank">京ICP备2021033021号</a>
   </div>
 </template>
 

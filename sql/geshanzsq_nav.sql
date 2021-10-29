@@ -644,8 +644,8 @@ INSERT INTO `nav_site` VALUES (472, 1017, '文档免费下载', '/profile/site/s
 INSERT INTO `nav_site` VALUES (473, 1009, 'ROM乐园', '/profile/site/system/34cfc67c-7490-4f5f-b7fb-a0b1f3d812a7.jpeg', '专注于打造全网优质特色ROM刷机包下载官方网站', 'http://www.romleyuan.com', 6, 10, '2020-10-27 23:23:28', NULL, 'geshazsq', 'geshanzsq', 0);
 INSERT INTO `nav_site` VALUES (474, 1012, '听蛙', '/profile/site/system/d343a0ca-ba53-449a-a18d-feac6d6b0d3d.ico', '最好听的轻音乐纯音乐分享、试听、欣赏、下载、推荐、排行', 'https://www.itingwa.com', 0, 7, '2020-11-19 10:41:27', NULL, 'geshazsq', 'geshanzsq', 0);
 INSERT INTO `nav_site` VALUES (475, 1036, '免费版权图片一键搜索', '/profile/site/system/e1b9de70-d73a-4aa4-891b-884fdd5ccebf.png', '一键搜索多家免版权图库，再也不用担心商用图片侵权了 ', 'https://www.logosc.cn/so/', 21, 0, '2020-11-20 08:53:58', NULL, 'geshazsq', 'geshanzsq', 1);
-INSERT INTO `nav_site` VALUES (476, 102, '格姗知识圈', '/profile/site/system/logo.jpg', '我的博客网站，专注于技术分享、实用工具与技巧的博客平台！', 'https://geshanzsq.com', 0, 36, '2020-11-25 00:49:54', NULL, 'geshazsq', 'geshanzsq', 0);
-INSERT INTO `nav_site` VALUES (477, 1032, '格姗知识圈', '/profile/site/system/logo.jpg', '我的博客网站，专注于技术分享、实用工具与技巧的博客平台！', 'https://geshanzsq.com', 1, 7, '2020-11-29 17:13:06', NULL, 'geshazsq', 'geshanzsq', 0);
+INSERT INTO `nav_site` VALUES (476, 102, '区块链知识圈', '/profile/site/system/logo.jpg', '我的博客网站，专注于技术分享、实用工具与技巧的博客平台！', 'https://geshanzsq.com', 0, 36, '2020-11-25 00:49:54', NULL, 'geshazsq', 'geshanzsq', 0);
+INSERT INTO `nav_site` VALUES (477, 1032, '区块链知识圈', '/profile/site/system/logo.jpg', '我的博客网站，专注于技术分享、实用工具与技巧的博客平台！', 'https://geshanzsq.com', 1, 7, '2020-11-29 17:13:06', NULL, 'geshazsq', 'geshanzsq', 0);
 INSERT INTO `nav_site` VALUES (478, 1037, '人工桌面', '/profile/site/system/3982b997-0e85-4573-bb8c-ccf4db4bf83d.ico', '简洁又可爱的萌妹桌面软件。绝对是美女帅哥、宅男宅女的喜爱。', 'https://lumi.mihoyo.com/#/', 0, 9, '2020-12-03 13:39:48', '2020-12-03 13:39:55', 'geshazsq', 'geshanzsq', 0);
 INSERT INTO `nav_site` VALUES (479, 1037, '故宫壁纸', '/profile/site/system/6dd9f9cc-d49e-4b32-abcd-5eba13580739.ico', '将历史的精彩收集到自己的手中', 'https://www.dpm.org.cn/lights/royal.html', 11, 2, '2020-12-11 09:10:22', NULL, 'geshazsq', 'geshanzsq', 0);
 INSERT INTO `nav_site` VALUES (480, 1037, 'CGWallpapers', '/profile/site/system/0e5e058c-bf93-4c40-b327-b4064a023560.ico', ' 游戏CG壁纸站，超细腻，真假难分', 'https://www.cgwallpapers.com/', 12, 1, '2020-12-11 09:12:58', NULL, 'geshazsq', 'geshanzsq', 0);
@@ -700,7 +700,7 @@ CREATE TABLE `sys_dept`  (
 -- ----------------------------
 -- Records of sys_dept
 -- ----------------------------
-INSERT INTO `sys_dept` VALUES (100, 0, '0', '格姗知识圈部门', 0, '格姗知识圈', '18888888888', '497301391@qq.com', '0', '0', 'admin', '2021-01-03 11:04:12', '', NULL);
+INSERT INTO `sys_dept` VALUES (100, 0, '0', '区块链知识圈部门', 0, '区块链知识圈', '18888888888', '497301391@qq.com', '0', '0', 'admin', '2021-01-03 11:04:12', '', NULL);
 
 -- ----------------------------
 -- Table structure for sys_dict_data
@@ -961,8 +961,8 @@ CREATE TABLE `sys_notice`  (
 -- ----------------------------
 -- Records of sys_notice
 -- ----------------------------
-INSERT INTO `sys_notice` VALUES (1, '温馨提醒：2021-01-01 格姗知识圈导航系统发布啦', '2', 0xE696B0E78988E69CACE58685E5AEB9, '0', 'admin', '2021-01-03 11:04:12', '', NULL, '管理员');
-INSERT INTO `sys_notice` VALUES (2, '维护通知：2021-01-03 格姗知识圈导航系统凌晨维护', '1', 0xE7BBB4E68AA4E58685E5AEB9, '0', 'admin', '2021-01-03 11:04:12', '', NULL, '管理员');
+INSERT INTO `sys_notice` VALUES (1, '温馨提醒：2021-01-01 区块链知识圈系统发布啦', '2', 0xE696B0E78988E69CACE58685E5AEB9, '0', 'admin', '2021-01-03 11:04:12', '', NULL, '管理员');
+INSERT INTO `sys_notice` VALUES (2, '维护通知：2021-01-03 区块链知识圈系统凌晨维护', '1', 0xE7BBB4E68AA4E58685E5AEB9, '0', 'admin', '2021-01-03 11:04:12', '', NULL, '管理员');
 
 -- ----------------------------
 -- Table structure for sys_oper_log
@@ -1192,8 +1192,8 @@ CREATE TABLE `sys_user`  (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES (1, 100, 'admin', '格姗知识圈', '00', '497301391@qq.com', '15888888888', '1', '', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '0', '0', '127.0.0.1', '2021-01-03 11:04:12', 'admin', '2021-01-03 11:04:12', '', NULL, '管理员');
-INSERT INTO `sys_user` VALUES (2, 100, 'geshanzsq', '格姗知识圈', '00', '497301391@qq.com', '15666666666', '1', '', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '0', '0', '127.0.0.1', '2021-01-03 11:04:12', 'admin', '2021-01-03 11:04:12', '', NULL, '测试员');
+INSERT INTO `sys_user` VALUES (1, 100, 'admin', '区块链知识圈', '00', '497301391@qq.com', '15888888888', '1', '', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '0', '0', '127.0.0.1', '2021-01-03 11:04:12', 'admin', '2021-01-03 11:04:12', '', NULL, '管理员');
+INSERT INTO `sys_user` VALUES (2, 100, 'geshanzsq', '区块链知识圈', '00', '497301391@qq.com', '15666666666', '1', '', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '0', '0', '127.0.0.1', '2021-01-03 11:04:12', 'admin', '2021-01-03 11:04:12', '', NULL, '测试员');
 
 -- ----------------------------
 -- Table structure for sys_user_post
@@ -1246,6 +1246,6 @@ CREATE TABLE `sys_web_config`  (
 -- ----------------------------
 -- Records of sys_web_config
 -- ----------------------------
-INSERT INTO `sys_web_config` VALUES (1, '这个导航网站来源于格姗知识圈导航的开源项目。如果你有更好的想法，可以通过左边的邮箱与我联系。如果喜欢本站，可以分享给其他人，或者设置为主页，这是对我最大的支持！', '497301391@qq.com', '<p>这是一个导航网站,收入了大部分常用的网站，希望能够解决到你频繁收藏网站的烦恼！</p>\r\n<p>显然，这是一个开源项目，主要放一些自己经常用到的网站。</p>\r\n<p>开源项目来源：<a href=\"https://gitee.com/geshanzsq/geshanzsq-nav\" target=\"_blank\" rel=\"noopener\">https://gitee.com/geshanzsq/geshanzsq-nav</a></>', 'admin', '2021-02-28 17:25:43', 'admin', '2021-02-28 17:32:44');
+INSERT INTO `sys_web_config` VALUES (1, '这个导航网站来源于区块链知识圈的开源项目。如果你有更好的想法，可以通过左边的邮箱与我联系。如果喜欢本站，可以分享给其他人，或者设置为主页，这是对我最大的支持！', '497301391@qq.com', '<p>这是一个导航网站,收入了大部分常用的网站，希望能够解决到你频繁收藏网站的烦恼！</p>\r\n<p>显然，这是一个开源项目，主要放一些自己经常用到的网站。</p>\r\n<p>开源项目来源：<a href=\"https://gitee.com/geshanzsq/geshanzsq-nav\" target=\"_blank\" rel=\"noopener\">https://gitee.com/geshanzsq/geshanzsq-nav</a></>', 'admin', '2021-02-28 17:25:43', 'admin', '2021-02-28 17:32:44');
 
 SET FOREIGN_KEY_CHECKS = 1;

@@ -8,7 +8,7 @@ spring:
             master:
                 url: jdbc:mysql://localhost:3306/geshanzsq_nav?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
                 username: root
-                password: root
+                password: A@1992kb24ZGZ
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
@@ -93,6 +93,6 @@ logging:
 # Swagger配置
 swagger:
     # 是否开启swagger
-    enabled: false
+    enabled: true
     # 请求前缀
     pathMapping: /dev-api

@@ -113,9 +113,9 @@ public class SwaggerConfig
         // 用ApiInfoBuilder进行定制
         return new ApiInfoBuilder()
                 // 设置标题
-                .title("标题：格姗知识圈导航系统_接口文档")
+                .title("标题：区块链知识圈系统_接口文档")
                 // 描述
-                .description("描述：用于管理格姗知识圈导航系统的导航信息,具体包括XXX,XXX模块...")
+                .description("描述：用于管理区块链知识圈系统的导航信息,具体包括XXX,XXX模块...")
                 // 作者信息
                 .contact(new Contact(geshanzsqNavConfig.getName(), null, null))
                 // 版本
